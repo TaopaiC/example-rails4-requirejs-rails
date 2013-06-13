@@ -1,0 +1,6 @@
+# TODO disable optimizing before we go production, it's easier to debug.
+optimize: 'none'
+#optimize: 'uglify'
+
+modules:
+- name: 'app'
